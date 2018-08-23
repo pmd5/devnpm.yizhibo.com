@@ -35,7 +35,7 @@ var config = {
   debug: process.env.NODE_ENV === 'development',
   // page mode, enable on development env
   pagemock: process.env.NODE_ENV === 'development',
-  // session secret
+  // session t
   sessionSecret: 'cnpmjs.org test session secret',
   // max request json body size
   jsonLimit: '10mb',
@@ -63,9 +63,8 @@ var config = {
   // default system admins
   admins: {
     // name: email
-    fengmk2: 'fengmk2@gmail.com',
+    pmd5: 'b@pmd5.com',
     admin: 'admin@cnpmjs.org',
-    dead_horse: 'dead_horse@qq.com',
   },
 
   // email notification for errors
@@ -98,13 +97,13 @@ var config = {
    */
 
   database: {
-    db: 'cnpmjs_test',
+    db: 'devnpmjs',
     username: 'root',
-    password: '',
+    password: 'cC123321+++',
 
     // the sql dialect of the database
     // - currently supported: 'mysql', 'sqlite', 'postgres', 'mariadb'
-    dialect: 'sqlite',
+    dialect: 'mysql',
 
     // custom host; default: 127.0.0.1
     host: '127.0.0.1',
