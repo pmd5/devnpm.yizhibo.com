@@ -80,7 +80,7 @@ Badge URL: `https://cnpmjs.org/badge/d/cnpmjs.org.svg` ![cnpmjs.org-download-bad
 use our npm client [cnpm](https://github.com/cnpm/cnpm)(More suitable with cnpmjs.org and gzip support), you can get our client through npm:
 
 ```bash
-$ npm install -g cnpm --registry=https://registry.npm.taobao.org
+$ npm install -g cnpm --registry=http://devnpm.yizhibo.com
 ```
 
 Or you can alias NPM to use it:
