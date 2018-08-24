@@ -55,7 +55,7 @@ var config = {
     interval: 1000 * 60 * 60 * 24,
     whiteList: [],
     blackList: [],
-    message: 'request frequency limited, any question, please contact fengmk2@gmail.com',
+    message: 'request frequency limited, any question, please contact admin@pmd5.com',
   },
 
   enableCompress: false, // enable gzip response or not
@@ -63,7 +63,7 @@ var config = {
   // default system admins
   admins: {
     // name: email
-    pmd5: 'b@pmd5.com',
+    pmd5: 'admin@pmd5.com',
     admin: 'admin@cnpmjs.org',
   },
 
@@ -161,8 +161,8 @@ var config = {
   // cnpm wont directly sync from this one
   // but sometimes will request it for some package infomations
   // please don't change it if not necessary
-  officialNpmRegistry: 'https://registry.npmjs.com',
-  officialNpmReplicate: 'https://replicate.npmjs.com',
+  officialNpmRegistry: 'http://registrynpm.yizhibo.com/',
+  officialNpmReplicate: 'http://registrynpm.yizhibo.com/',
 
   // sync source, upstream registry
   // If you want to directly sync from official npm's registry
