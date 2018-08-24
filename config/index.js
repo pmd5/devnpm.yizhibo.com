@@ -167,7 +167,7 @@ var config = {
   // sync source, upstream registry
   // If you want to directly sync from official npm's registry
   // please drop them an email first
-  sourceNpmRegistry: 'https://registry.npm.taobao.org',
+  sourceNpmRegistry: 'http://registrynpm.yizhibo.com',
 
   // upstream registry is base on cnpm/cnpmjs.org or not
   // if your upstream is official npm registry, please turn it off
