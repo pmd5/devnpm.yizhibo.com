@@ -63,7 +63,7 @@ var config = {
   // default system admins
   admins: {
     // name: email
-    pmd5: 'admin@pmd5.com',
+    pmd5: 'b@pmd5.com',
     admin: 'admin@cnpmjs.org',
   },
 
@@ -161,13 +161,13 @@ var config = {
   // cnpm wont directly sync from this one
   // but sometimes will request it for some package infomations
   // please don't change it if not necessary
-  officialNpmRegistry: 'http://registrynpm.yizhibo.com/',
-  officialNpmReplicate: 'http://registrynpm.yizhibo.com/',
+  officialNpmRegistry: 'https://registry.npmjs.com',
+  officialNpmReplicate: 'https://replicate.npmjs.com',
 
   // sync source, upstream registry
   // If you want to directly sync from official npm's registry
   // please drop them an email first
-  sourceNpmRegistry: 'http://registrynpm.yizhibo.com',
+  sourceNpmRegistry: 'https://registry.npm.taobao.org',
 
   // upstream registry is base on cnpm/cnpmjs.org or not
   // if your upstream is official npm registry, please turn it off
